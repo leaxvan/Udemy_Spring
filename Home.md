@@ -1,7 +1,8 @@
 # Frequently Asked Questions in Spring Framework 5: Beginner to Guru
+## Getting Help with the Course
+You have a number of options for getting help with your Spring Framework 5 course. See [this page](https://github.com/springframeworkguru/spring5webapp/wiki/Getting-Help-With-the-Course) for how to get help.
   
 ### Java Version
-
 #### Which version of Java should I use?
 
 Majority of the course has been developed on Java 8. The course is being updated to Java 11.
