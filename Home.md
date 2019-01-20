@@ -1,6 +1,8 @@
 # Frequently Asked Questions in Spring Framework 5: Beginner to Guru
 ## Getting Help with the Course
 You have a number of options for getting help with your Spring Framework 5 course. See [this page](https://github.com/springframeworkguru/spring5webapp/wiki/Getting-Help-With-the-Course) for how to get help.
+## Which IDE Should I Use
+Please see this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Which-IDE-to-Use%3F) for IDE related questions.
   
 ### Java Version
 #### Which version of Java should I use?
