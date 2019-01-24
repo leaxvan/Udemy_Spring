@@ -133,3 +133,31 @@ Try the following:
     A common mistake is to create a package outside of this package structure. (thus, Spring does not 'see' the configuration)
     * If the component is not under the package of the main application class, use the @ComponentScan annotation. See this 
     [link](https://springframework.guru/spring-component-scan/) for additional information.
+
+#### CircleCI Maven Error - The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+**Problem** Maven fails to build on CircleCI with the following error:
+```
+[ERROR] The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd /home/circleci/repo && /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar /home/circleci/repo/target/surefire/surefirebooter2185025882795471569.jar /home/circleci/repo/target/surefire 2019-01-06T20-41-42_280-jvmRun1 surefire1322664035589975057tmp surefire_01251624383929836459tmp
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR] org.apache.maven.surefire.booter.SurefireBooterForkException: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was /bin/sh -c cd /home/circleci/repo && /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar /home/circleci/repo/target/surefire/surefirebooter2185025882795471569.jar /home/circleci/repo/target/surefire 2019-01-06T20-41-42_280-jvmRun1 surefire1322664035589975057tmp surefire_01251624383929836459tmp
+[ERROR] Error occurred in starting fork, check output in log
+[ERROR] Process Exit Code: 1
+[ERROR] 	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:669)
+```
+This is a problem with the Maven Surefire plugin running on newer releases of Java 8. 
+**Solution:**
+You need to add the following to your Maven POM to configure the Maven Surefire plugin. 
+
+```xml
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
+            </plugin>
+```
