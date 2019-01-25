@@ -163,7 +163,7 @@ You need to add the following to your Maven POM to configure the Maven Surefire 
                 </configuration>
             </plugin>
 ```
-#### How to use the source code of the repo?
+#### How to use the source code of the course?
 
 Source code for this course is in Github. Code-centric lectures have a `Resources Available` link on the Udemy player. 
 
