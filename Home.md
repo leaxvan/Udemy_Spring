@@ -180,7 +180,6 @@ To get the best out of the course:
 #### Video quality is not good or video is blur
 Videos go through quality checks before getting uploaded to Udemy. Therefore, if your viewing experience is not good, it might be due to the following reasons:
 * Low Internet Bandwith: Check your Internet Connectivity because Udemy will serve video in lower resolution for low Internet bandwidth.
-* Incorrect settings in Udemy Video Player: [Adjust video quality](https://support.udemy.com/hc/en-us/articles/229603888-Adjust-Video-Quality){:target="_blank"} in Udemy Video Player. Click the gear icon on the bottom-right corner of the player, and select resolutions of 360p, 480p, 720p and 1080p for the video quality.
+* Incorrect settings in Udemy Video Player: Adjust video quality in Udemy Video Player. Click the gear icon on the bottom-right corner of the player, and select resolutions of 360p, 480p, 720p and 1080p for the video quality.
 
 
- <a href="https://support.udemy.com/hc/en-us/articles/229603888-Adjust-Video-Quality" target="_blank" >Go</a>
