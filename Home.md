@@ -21,7 +21,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 * [Video quality is not good or video is blur](https://github.com/springframeworkguru/spring5webapp/wiki#video-quality-is-not-good-or-video-is-blur)
 * [Compilation error in project when using Gradle in Intellij](https://github.com/springframeworkguru/spring5webapp/wiki#compilation-error-in-project-when-using-gradle-in-intellij)
 
-* [Maven executable not found at: <MAVEN_PATH>\bin\mvn.bat](https://github.com/springframeworkguru/spring5webapp/wiki#maven-executable-not-found-at-<MAVEN_PATH>\bin\mvn.bat)
+* [Maven executable not found at: <MAVEN_PATH>\bin\mvn.bat](https://github.com/springframeworkguru/spring5webapp/wiki#maven-executable-not-found)
 
 ### FAQs
 #### Getting error - Whitelabel Error Page - This application has no explicit mapping for /error...
@@ -192,7 +192,7 @@ Ensure annotation processing is turned on in Intellij. To do so:
 2. In the **Settings** dialog box that appears, expand the **Build, Execution, Deployment** node.
 3. On the right pane of the **Settings** dialog box, ensure **Enable annotation processing** check box is checked.
 
-#### Maven Executable Not Found at <MAVEN_PATH>\bin\mvn.bat
+#### Maven Executable Not Found 
 
 This error is reported by newer Windows version of Maven.
 
