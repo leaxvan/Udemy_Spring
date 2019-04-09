@@ -204,9 +204,3 @@ This error is reported by newer Windows version of Maven.
 
 **Solution:** Create a copy of the mvn.cmd file in MAVEN_PATH/bin directory and rename it to mvn.bat.
 
-#### How to display mappings of incoming requests to controller handler methods in IntelliJ Console?
-Set the log level of Spring Web MVC to debug, like this.  
-
-`logging.level.org.springframework.web=debug`
-
-Spring Boot starter web comes with Logback as the logging framework, and this configuration instructs Logback to emit debug messages to the console by default.
