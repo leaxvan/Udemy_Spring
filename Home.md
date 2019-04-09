@@ -23,7 +23,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [Maven executable not found at: <MAVEN_PATH>\bin\mvn.bat](https://github.com/springframeworkguru/spring5webapp/wiki#maven-executable-not-found)
 
-* [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#How-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-IntelliJ-Console?)
+* [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console?)
 
 ### FAQs
 #### Getting error - Whitelabel Error Page - This application has no explicit mapping for /error...
