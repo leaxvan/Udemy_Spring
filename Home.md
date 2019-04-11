@@ -27,7 +27,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [Spring Pet Clinic in Java 8 Unable to find main class](https://github.com/springframeworkguru/spring5webapp/wiki#spring-pet-clinic-in-java-8-unable-to-find-main-class )
 
-* [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console? )
+* [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console)
 
 ### FAQs
 #### Getting error - Whitelabel Error Page - This application has no explicit mapping for /error...
