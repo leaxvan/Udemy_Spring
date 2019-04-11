@@ -25,7 +25,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intellij-console)
 
-* [Spring Pet Clinic in Java 8 Unable to find main class]
+* [Spring Pet Clinic in Java 8 Unable to find main class](https://github.com/springframeworkguru/spring5webapp/wiki#Spring Pet Clinic in Java 8 Unable to find main class )
 
 ### FAQs
 #### Getting error - Whitelabel Error Page - This application has no explicit mapping for /error...
@@ -205,4 +205,6 @@ This error is reported by newer Windows version of Maven.
 **Cause:** maven-release-plugin tries to find the mvn.bat file, while newer versions of Windows Maven comes with only mvn.cmd.
 
 **Solution:** Create a copy of the mvn.cmd file in MAVEN_PATH/bin directory and rename it to mvn.bat.
+
+#### Spring Pet Clinic in Java 8 Unable to find main class 
 
