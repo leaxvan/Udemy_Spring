@@ -210,8 +210,6 @@ This error is reported by newer Windows version of Maven.
 
 In your parent pom.xml, explicitly specify the main class as a property, like this
 
-   In your parent pom.xml, explicitly specify the main class as a property, like this
-
 ```xml
 <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
 
