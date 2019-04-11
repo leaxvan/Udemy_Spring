@@ -208,3 +208,6 @@ This error is reported by newer Windows version of Maven.
 
 #### Spring Pet Clinic in Java 8 Unable to find main class 
 
+In your parent pom.xml, explicitly specify the main class as a property, like this
+<start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
+
