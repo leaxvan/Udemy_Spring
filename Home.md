@@ -219,9 +219,12 @@ In your parent pom.xml, explicitly specify the main class as a property, like th
 
 ```
 
-#### Port may already be in use
+#### The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured
 
 This happens when some other process is using the default Tomcat port 8080. Stop the process using port 8080. Alternatively, start your application on a different port, say 8090 by adding this property to the application.properties file.
 
+```xml
 server.port:8090
+
+```
 
