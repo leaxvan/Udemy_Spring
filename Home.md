@@ -27,7 +27,9 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [Spring Pet Clinic in Java 8 Unable to find main class](https://github.com/springframeworkguru/spring5webapp/wiki#spring-pet-clinic-in-java-8-unable-to-find-main-class )
 
-* [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console)
+* [The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured]
+(https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console)
+
 
 ### FAQs
 #### Getting error - Whitelabel Error Page - This application has no explicit mapping for /error...
@@ -217,13 +219,3 @@ In your parent pom.xml, explicitly specify the main class as a property, like th
 
 ```
 
-#### How to display mappings of incoming requests to controller handler methods in IntelliJ Console?
-
-Set the log level of Spring Web MVC to debug, like this. 
- 
-```xml
-logging.level.org.springframework.web=debug
-```
-
-
-Spring Boot starter web comes with Logback as the logging framework, and this configuration instructs Logback to emit debug messages to the console by default.
