@@ -219,8 +219,11 @@ In your parent pom.xml, explicitly specify the main class as a property, like th
 
 #### How to display mappings of incoming requests to controller handler methods in IntelliJ Console?
 
-Set the log level of Spring Web MVC to debug, like this.  
-
+Set the log level of Spring Web MVC to debug, like this. 
+ 
+```xml
 logging.level.org.springframework.web=debug
+```
+
 
 Spring Boot starter web comes with Logback as the logging framework, and this configuration instructs Logback to emit debug messages to the console by default.
