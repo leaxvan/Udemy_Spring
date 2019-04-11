@@ -28,7 +28,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 * [Spring Pet Clinic in Java 8 Unable to find main class](https://github.com/springframeworkguru/spring5webapp/wiki#spring-pet-clinic-in-java-8-unable-to-find-main-class )
 
 * [The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured]
-(https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intelliJ-console)
+(https://github.com/springframeworkguru/spring5webapp/wiki#port-may-already-be-in-use)
 
 
 ### FAQs
@@ -218,4 +218,10 @@ In your parent pom.xml, explicitly specify the main class as a property, like th
 <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
 
 ```
+
+#### Port may already be in use
+
+This happens when some other process is using the default Tomcat port 8080. Stop the process using port 8080. Alternatively, start your application on a different port, say 8090 by adding this property to the application.properties file.
+
+server.port:8090
 
