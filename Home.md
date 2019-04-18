@@ -20,18 +20,11 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 * [How to use the source code of the course?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-use-the-source-code-of-the-course)
 * [Video quality is not good or video is blur](https://github.com/springframeworkguru/spring5webapp/wiki#video-quality-is-not-good-or-video-is-blur)
 * [Compilation error in project when using Gradle in Intellij](https://github.com/springframeworkguru/spring5webapp/wiki#compilation-error-in-project-when-using-gradle-in-intellij)
-
 * [Maven executable not found at: <MAVEN_PATH>\bin\mvn.bat](https://github.com/springframeworkguru/spring5webapp/wiki#maven-executable-not-found)
-
 * [How to display mappings of incoming requests to controller handler methods in IntelliJ Console?](https://github.com/springframeworkguru/spring5webapp/wiki#how-to-display-mappings-of-incoming-requests-to-controller-handler-methods-in-intellij-console)
-
 * [Spring Pet Clinic in Java 8 Unable to find main class](https://github.com/springframeworkguru/spring5webapp/wiki#spring-pet-clinic-in-java-8-unable-to-find-main-class )
-
 * [The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured](https://github.com/springframeworkguru/spring5webapp/wiki#the-tomcat-connector-configured-to-listen-on-port-8080-failed-to-start-the-port-may-already-be-in-use-or-the-connector-may-be-misconfigured)
-
-* [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications:-pom.xml:modified)
-
- * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications-pom -.- xml-modified)
+* [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications-pomxml-modified)
 
 
 ### FAQs
