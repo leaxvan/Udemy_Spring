@@ -31,7 +31,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications:-pom.xml:modified)
 
- * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications-pom.xml-modified)
+ * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications-pom -.- xml-modified)
 
 
 ### FAQs
