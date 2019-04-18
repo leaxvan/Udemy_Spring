@@ -230,3 +230,20 @@ server.port:8090
 
 ```
 
+
+#### Cannot prepare the release because you have local modifications: pom.xml:modified
+
+Add the following configuration to the maven-release-plugin the main pom.
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-release-plugin</artifactId>
+  <configuration>
+    <checkModificationExcludes>
+        <checkModificationExclude>pom.xml</checkModificationExclude>
+    </checkModificationExcludes>
+  </configuration>
+</plugin>
+```
+
