@@ -31,9 +31,7 @@ See this [page](https://github.com/springframeworkguru/spring5webapp/wiki/Java-V
 
 * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications:-pom.xml:modified)
 
-* [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#Cannot%20prepare%20the%20release%20because%20you%20have%20local%20modifications:%20pom.xml:modified)
-
-
+ * [Cannot prepare the release because you have local modifications: pom.xml:modified](https://github.com/springframeworkguru/spring5webapp/wiki#cannot-prepare-the-release-because-you-have-local-modifications-pom.xml-modified)
 
 
 ### FAQs
@@ -234,7 +232,7 @@ server.port:8090
 ```
 
 
-#### Cannot prepare the release because you have local modifications: pom.xml:modified
+#### Cannot prepare the release because you have local modifications pom.xml modified
 
 Add the following configuration to the maven-release-plugin the main pom.
 
