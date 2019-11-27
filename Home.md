@@ -251,3 +251,12 @@ Add the following configuration to the maven-release-plugin the main pom.
 </plugin>
 ```
 
+#### Getting error cannot find templates
+
+**Error:**
+
+```java.lang.IllegalStateException: Cannot find template location: class path resource [templates/] (please add some templates or check your Thymeleaf configuration) ```
+
+**Solution:**
+
+Spring is unable to find the templates directory. Spring Boot by default looks in `resources\templates`. Verify you have this directory created. 
