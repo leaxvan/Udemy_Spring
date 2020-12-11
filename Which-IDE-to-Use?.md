@@ -6,7 +6,7 @@ Please see the following FAQs about IntelliJ and IDEs in general below.
 #### Why is the IntelliJ IDE used in the course?
 IntelliJ is the most widely used IDE by Java developers, and very common in the enterprise.
 
-#### Do I meed to use IntelliJ for this course?
+#### Do I need to use IntelliJ for this course?
 No, all source code examples use Maven or Gradle. Any modern Java IDE supports these build tools.
 
 #### Is it okay to use Eclipse for this course?
